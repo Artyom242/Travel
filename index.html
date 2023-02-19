@@ -7,10 +7,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/null.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
-<body class="bg-slate-200 container mx-auto dark:bg-black">
-    <h1 class="text-5xl text-cyan-900 text-center p-8 italic dark:text-cyan-50">
-        Привет мир!
-      </h1>
+<body class="bg-bg">
+    <header>
+        <div class="container py-[96px]">
+            <nav class="flex justify-between items-center">
+                <ul class="flex gap-12 text-colP ">
+                    <li class="text-xl hover:text-colNight hover:font-bold font-light"><a href="#">Home</a></li>
+                    <li class="text-xl hover:text-colNight hover:font-bold font-light"><a href="#">Guides</a></li>
+                    <li class="text-xl hover:text-colNight hover:font-bold font-light"><a href="#">Flights</a></li>
+                    <li class="text-xl hover:text-colNight hover:font-bold font-light"><a href="#">About</a></li>
+                </ul>
+                <a href="#">
+                    <div class="border-2 border-solid rounded-lg py-[20px] px-[56px]  border-red-400 hover:bg-red-400 transition-all text-colNight hover:text-white">
+                        <p class="font-bold text-xl  ">Contact Us</p>
+                    </div>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container relative">
+            <div class="flex items-center pb-[160px] gap-24 justify-between">
+                <div class="max-w-[430px]">
+                    <h1 class="text-[80px] mb-8">Travel to your dream destination</h1>
+                    <p class="text-base font-normal mb-11">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
+                    <a href="#"><div class="bg-black py-[18px] px-[58px] text-white text-xl font-bold w-[256px] outline outline-black  outline-2 rounded-lg hover:bg-white hover:text-black hover:outline-red-400 transition-all">
+                        <p class="text-center">Reserve Ticket</p>
+                    </div></a>
+                </div>
+                <div class="max-w-[660px] justify-between">
+                    <img class="" src="img/layers.png" alt="">
+                </div>
+            </div>
+            <img class="absolute left-[-5.75rem] top-[77px] h-[849px] w-[608px] z-[-1] opacity-20" src="/img/scribble_lightest_5031.png" alt="">
+            <img class="absolute right-[-7rem] top-[247px] h-[407px] w-[120px] z-[-1]" src="/img/scribble_dark_5027.png" alt="">
+        </div>
+
+        <div class="bg-colNight w-full">
+            <div class="container flex flex-col items-center w-[470px] text-center">
+                <h2 class="text-white font-bold text-[55px] pt-[52px] pb-[33px]">Create a memory to remember</h2>
+                <p class="text-white text-base pb-[39px]">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
+                <div class="bg-colNight py-[18px] px-[58px] mb-[54px] text-white text-xl font-bold w-[256px] outline outline-white  outline-2 rounded-lg hover:bg-red-400 hover:text-white hover:outline-red-400 transition-all">
+                    <p>My Travel Logs</p>
+                </div>
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+        </div>
+    </main>
 </body>
 </html>

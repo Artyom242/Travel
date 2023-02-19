@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Lato:wght@300;400;700;900&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -86,9 +86,8 @@ h6 {
   font-size: inherit;
   font-weight: inherit;
 }
-
 body {
-  font-family: "Playfair Display", sans-serif;
+
   height: 100%;
 }
 

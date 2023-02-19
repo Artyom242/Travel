@@ -3,7 +3,21 @@ module.exports = {
   content: ["./*.html"],
   darkMode:'class',
   theme: {
-    extend: {},
+    screens:{
+        'xl': {'max':'1200px'},
+    },
+    container:{
+        padding: '15px',
+        center:  true
+    },
+    extend: {
+        colors:{
+            colP: '#515155',
+            colNight: '#232323',
+            bg: '#e9e7e7',
+            footer: '#c4c4c4'
+        }
+    },
   },
   plugins: [],
 }
