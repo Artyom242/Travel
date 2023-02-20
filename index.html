@@ -22,7 +22,7 @@
                     <li class="text-xl hover:text-colNight hover:font-bold font-light"><a href="#">About</a></li>
                 </ul>
                 <a href="#">
-                    <div class="border-2 border-solid rounded-lg py-[20px] px-[56px]  border-red-400 hover:bg-red-400 transition-all text-colNight hover:text-white">
+                    <div class="lg:hidden border-2 border-solid rounded-lg py-[20px] px-[56px]  border-red-400 hover:bg-red-400 transition-all text-colNight hover:text-white">
                         <p class="font-bold text-xl  ">Contact Us</p>
                     </div>
                 </a>
@@ -30,33 +30,97 @@
         </div>
     </header>
 
-    <main>
-        <div class="container relative">
-            <div class="flex items-center pb-[160px] gap-24 justify-between">
-                <div class="max-w-[430px]">
-                    <h1 class="text-[80px] mb-8">Travel to your dream destination</h1>
-                    <p class="text-base font-normal mb-11">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
-                    <a href="#"><div class="bg-black py-[18px] px-[58px] text-white text-xl font-bold w-[256px] outline outline-black  outline-2 rounded-lg hover:bg-white hover:text-black hover:outline-red-400 transition-all">
-                        <p class="text-center">Reserve Ticket</p>
-                    </div></a>
-                </div>
-                <div class="max-w-[660px] justify-between">
-                    <img class="" src="img/layers.png" alt="">
+    <main class="overflow-hidden ">
+        <div class="relative">
+            <div class="container">
+                <div class="flex items-center pb-[160px] gap-24 justify-between lg:flex-wrap">
+                    <div class="max-w-[430px] lg:m-auto lg:text-center">
+                        <h1 class="text-[80px] mb-8">Travel to your dream destination</h1>
+                        <p class="text-base font-normal mb-11">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
+                        <a href="#"><div class="bg-black py-[18px] lg:m-auto px-[58px] text-white text-xl font-bold w-[256px] outline outline-black  outline-2 rounded-lg hover:bg-white hover:text-black hover:outline-red-400 transition-all">
+                            <p class="text-center">Reserve Ticket</p>
+                        </div></a>
+                    </div>
+                    <div class="max-w-[660px] min-w-[400px] justify-between lg:max-w-none lg:w-full ">
+                        <img class="lg:w-full" src="img/layers.png" alt="">
+                    </div>
                 </div>
             </div>
-            <img class="absolute left-[-5.75rem] top-[77px] h-[849px] w-[608px] z-[-1] opacity-20" src="img/scribble_lightest_5031.png" alt="">
-            <img class="absolute right-[-7rem] top-[247px] h-[407px] w-[120px] z-[-1]" src="img/scribble_dark_5027.png" alt="">
+            <img class="absolute left-[-9vw] top-[77px] h-[849px] w-[608px] z-[-1] opacity-20" src="img/scribble_lightest_5031.png" alt="">
         </div>
 
-        <div class="bg-colNight w-full">
-            <div class="container flex flex-col items-center w-[470px] text-center">
-                <h2 class="text-white font-bold text-[55px] pt-[52px] pb-[33px]">Create a memory to remember</h2>
-                <p class="text-white text-base pb-[39px]">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
-                <div class="bg-colNight py-[18px] px-[58px] mb-[54px] text-white text-xl font-bold w-[256px] outline outline-white  outline-2 rounded-lg hover:bg-red-400 hover:text-white hover:outline-red-400 transition-all">
+        <div class="bg-colNight w-full relative">
+            <div class="container flex flex-col items-center w-[470px] text-center ">
+                <h2 class="text-white font-bold text-[55px] pt-[52px] pb-[33px] z-10">Create a memory to remember</h2>
+                <p class="text-white text-base pb-[39px] z-10">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
+                <div class="bg-colNight py-[18px] z-10 px-[58px] mb-[54px] text-white text-xl font-bold w-[256px] outline outline-white  outline-2 rounded-lg hover:bg-red-400 hover:text-white hover:outline-red-400 transition-all">
                     <p>My Travel Logs</p>
                 </div>
-                <img src="" alt="">
-                <img src="" alt="">
+            </div>
+            <img class="absolute left-0 top-[52px] h-[164px] w-auto lg:opacity-50" src="img/scribble_light_5041.png" alt="">
+            <img class="absolute right-0 top-[245px] h-[88px] w-auto lg:opacity-40" src="img/scribble_light_5043.png" alt="">
+        </div>
+
+        <div class="relative">
+            <div class="container flex justify-around gap-14 mb-[50vh] mt-[166px] lg:flex-wrap">
+                <div class="block min-w-[200px] max-w-[363px] sm:mb-9">
+                    <img class="h-auto mb-16 sm:mb-10" src="img/layers (1).png" alt="">
+                    <h3 class="font-bold text-4xl mb-9 sm:mb-7">Lorem ipsum dolor sit amet</h3>
+                    <p class="font-normal text-base text-justify">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
+                </div>
+                <div class="block min-w-[200px] max-w-[363px] sm:mb-9">
+                    <img class="h-auto mb-16 sm:mb-10" src="img/layers (2).png" alt="">
+                    <h3 class="font-bold text-4xl mb-9 sm:mb-7">Lorem ipsum dolor sit amet</h3>
+                    <p class="font-normal text-base text-justify">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
+                </div>
+                <div class="block min-w-[200px] max-w-[363px] sm:mb-9">
+                    <img class="h-auto mb-16 sm:mb-10" src="img/layers (3).png" alt="">
+                    <h3 class="font-bold text-4xl mb-9 sm:mb-7">Lorem ipsum dolor sit amet</h3>
+                    <p class="font-normal text-base text-justify">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
+                </div>
+            </div>
+            <img class="absolute left-0 top-0 h-[798px] w-[79px] z-[-1] opacity-30 " src="img/scribble_dark_5079.png" alt="">
+            <img class="absolute right-0 top-[407px] h-auto w-[73px] z-[-1]" src="img/scribble_dark_5081.png" alt="">
+        </div>
+
+        <div class="relative">
+            <div class="container mb-[270px] relative">
+                <div class="max-w-[790px] m-auto text-center">
+                    <img class="m-auto mb-16" src="img/airplace_icon_5092.png" alt="">
+                    <h2 class="font-bold text-8xl mb-16">See places you’ve
+                        <span class="italic underline">never</span> been before</h2>
+                        <p class="text-2xl font-black">Lorem Ipsum Dolor | Lorem Ipsum Dolor | Lorem Ipsum Dolor</p>
+                </div>
+                <img class="absolute left-0  h-[108px] w-[424px] z-[-1]" src="img/scribble_dark_5096.png" alt="">
+            </div>
+            <img class="absolute right-0 -top-9 opacity-20 h-[885px] w-[266px] z-[-1]" src="img/scribble_lightest_5098.png" alt="">
+        </div>
+
+        <div class="">
+            <div class="container flex justify-between relative gap-11 mb-12 lg:flex-wrap">
+                <div class="block lg:m-auto">
+                    <img class="max-w-[564px] h-[776px] object-cover xl:max-w-[500px] xl:h-[700px] lg:max-w-full lg:h-[500px]" src="img/layers.png" alt="">
+                    <img class="absolute lg:hidden left-[-1vw] top-[40%] opacity-90 h-[254px] w-[71px] z-[2]" src="img/tape_5143.png" alt="">
+                </div>
+                <div class="flex flex-col lg:w-full">
+                    <img class="max-w-[418px] h-auto mb-[78px] lg:w-[900px] lg:h-[250px] lg:object-cover lg:m-auto lg:mb-9" src="img/layers (4).png" alt="">
+                    <div class="flex mb-11 gap-5 lg:m-auto">
+                        <div class="block max-w-[240px]">
+                            <h3 class="underline text-4xl font-bold">Lorem ipsum
+                                dolor sit amet
+                                consectetur
+                                adipiscing elit
+                                sed do ei</h3>
+                        </div>
+                        <div class="block lg:max-w-[400px]">
+                            <p class="text-base font-normal mb-4">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                            <p class="text-base font-normal">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-end">
+                        <a href="#"><img class="" src="img/line_5110.png" alt=""></a>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

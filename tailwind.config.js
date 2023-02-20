@@ -5,6 +5,8 @@ module.exports = {
   theme: {
     screens:{
         'xl': {'max':'1200px'},
+        'lg': {'max':'1024px'},
+        'sm': {'max':'620px'}
     },
     container:{
         padding: '15px',
